@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% set active_page = "home" %}
+{% block content %}
+{{ super () }}
+
+<div class="container maxWidth">
+   <div class="text-center">
+      <img src="{{ contents.logo }}" class="img-fluid" alt="Cherax Records Logo">
+   </div>
+</div>
+
+{% endblock %}
